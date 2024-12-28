@@ -5,14 +5,14 @@ const { cmd } = require('../command');
 
 cmd({
     pattern: "update",
-    react: "💜",
+    react: "🦄",
     desc: "Update Repo GitHub",
     category: "system",
     use: '.update',
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const repoUrl = 'https://github.com/JawadYTX/KHAN-AI.git'; 
+        const repoUrl = 'https://github.com/SilvaTechB/silva-spark-md.git'; 
         const targetFolder = 'plugins';
 
         
@@ -36,7 +36,7 @@ cmd({
             });
         });
 
-        await conn.sendMessage(from, { text: '*✅ Update completed successfully!*' }, { quoted: mek });
+        await conn.sendMessage(from, { text: '*✅Silva Spark Update completed successfully!*' }, { quoted: mek });
     } catch (error) {
         console.error(error);
         reply(`*Error during update:* ${error.message}`);
