@@ -49,7 +49,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363200367779016@newsletter',
+                    newsletterJid: 'https://i.imgur.com/PEZ5QL2.jpeg',
                     newsletterName: 'SILVA SPARK REPO💖💖🥰',
                     serverMessageId: 143,
                 }
