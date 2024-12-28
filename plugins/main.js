@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★│ Platform : *Heroku*
 ┃★│ Mode : *[${config.MODE}]*
 ┃★│ Prifix : *[${config.PREFIX}]*
-┃★│ Version : *2.0.0 Bᴇᴛᴀ*
+┃★│ Version : *1.0.0*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Download Menu* 〕━━┈⊷
@@ -234,15 +234,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/89xq3r.jpg` },
+                image: { url: `https://i.imgur.com/PEZ5QL2.jpeg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363200367779016@newsletter',
+                        newsletterName: 'SILVA SPARK MD 💖🦄',
                         serverMessageId: 143
                     }
                 }
