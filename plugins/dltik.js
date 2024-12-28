@@ -1,1 +1,58 @@
-const _0x3d8203=_0x117d;(function(_0x22820f,_0x5b659a){const _0x2ca26b=_0x117d,_0x1fcbb6=_0x22820f();while(!![]){try{const _0x186869=parseInt(_0x2ca26b(0x1ae))/0x1*(-parseInt(_0x2ca26b(0x1c7))/0x2)+-parseInt(_0x2ca26b(0x1b8))/0x3+-parseInt(_0x2ca26b(0x1b5))/0x4+parseInt(_0x2ca26b(0x1c8))/0x5*(parseInt(_0x2ca26b(0x1db))/0x6)+parseInt(_0x2ca26b(0x1d6))/0x7*(parseInt(_0x2ca26b(0x1c9))/0x8)+parseInt(_0x2ca26b(0x1bc))/0x9+parseInt(_0x2ca26b(0x1ce))/0xa;if(_0x186869===_0x5b659a)break;else _0x1fcbb6['push'](_0x1fcbb6['shift']());}catch(_0x5f52ac){_0x1fcbb6['push'](_0x1fcbb6['shift']());}}}(_0x2b42,0x627e6));function _0x117d(_0x536b78,_0x3fc98f){const _0x2b429f=_0x2b42();return _0x117d=function(_0x117d0a,_0x2ffd1e){_0x117d0a=_0x117d0a-0x1ae;let _0x4f2331=_0x2b429f[_0x117d0a];return _0x4f2331;},_0x117d(_0x536b78,_0x3fc98f);}const fetch=require(_0x3d8203(0x1d1)),{cmd}=require(_0x3d8203(0x1cb));function _0x2b42(){const _0x23b296=['views','shares','startsWith','tiktokdl2','type','\x0a┇๏\x20*Comments:*\x20','ttdl','9278VAtzsD','20YrMlTR','382328HkehVl','sendMessage','../command','ttdown2','tiktokvid2','7685910YmfgLQ','http','favorite','node-fetch','description','\x0a┇๏\x20*Shares:*\x20','no-watermark','╭━━━〔\x20*KHAN-MD*\x20〕━━━┈⊷\x0a┃▸╭───────────\x0a┃▸┃๏\x20*TIKTOK\x20DOWNLOADER*\x0a┃▸└───────────···๏\x0a╰────────────────┈⊷\x0a╭━━〔\x20*Post\x20Details*\x20〕━━┈⊷\x0a┇๏\x20*Type:*\x20','63nGcCDB','result','tiktok2','username','\x0a┇๏\x20*Views:*\x20','121860CRLatn','5VnjcLY','\x0a┇๏\x20*Username:*\x20','name','Error\x20in\x20TikTok\x20command:','tt2','image','N/A','2947588uYoIjv','likes','comments','591228fLMxIT','video','\x20\x20\x20\x20\x0a┇๏\x20*Description:*\x20','Please\x20provide\x20a\x20valid\x20TikTok\x20link.\x0a\x0a*Usage\x20Example:*\x0a\x0a.tt2\x20<TikTok\x20video\x20URL>','725832yriHoe','Sorry,\x20I\x20couldn\x27t\x20fetch\x20the\x20TikTok\x20content.\x20Please\x20check\x20the\x20link\x20and\x20try\x20again.','*💜\x20Image:*\x20','Download\x20videos\x20or\x20images\x20from\x20TikTok.'];_0x2b42=function(){return _0x23b296;};return _0x2b42();}cmd({'pattern':_0x3d8203(0x1d8),'alias':[_0x3d8203(0x1b2),_0x3d8203(0x1c3),_0x3d8203(0x1cc),_0x3d8203(0x1cd),_0x3d8203(0x1c6)],'desc':_0x3d8203(0x1bf),'react':'✅','category':'tools','filename':__filename},async(_0x5361f3,_0x2bb796,_0x4262dc,{from:_0xd8ba49,args:_0x5a77fe,reply:_0x2303a0})=>{const _0x5deee9=_0x3d8203;try{const _0x432f6b=_0x5a77fe[0x0];if(!_0x432f6b||!_0x432f6b[_0x5deee9(0x1c2)](_0x5deee9(0x1cf)))return _0x2303a0(_0x5deee9(0x1bb));const _0x4eed81=await fetch('https://api.yanzbotz.live/api/downloader/tiktok?url='+encodeURIComponent(_0x432f6b)+'&apiKey=yanzdev'),_0x233679=await _0x4eed81['json']();if(!_0x233679||!_0x233679[_0x5deee9(0x1d7)])return _0x2303a0(_0x5deee9(0x1bd));const _0x5796a2=_0x233679[_0x5deee9(0x1d7)],_0x48590b=_0x5deee9(0x1d5)+(_0x5796a2['type']||_0x5deee9(0x1b4))+'\x0a┇๏\x20*Name:*\x20'+(_0x5796a2[_0x5deee9(0x1b0)]||_0x5deee9(0x1b4))+_0x5deee9(0x1af)+(_0x5796a2[_0x5deee9(0x1d9)]||'N/A')+_0x5deee9(0x1da)+(_0x5796a2[_0x5deee9(0x1c0)]||0x0)+'\x0a┇๏\x20*Likes:*\x20'+(_0x5796a2[_0x5deee9(0x1b6)]||0x0)+_0x5deee9(0x1c5)+(_0x5796a2[_0x5deee9(0x1b7)]||0x0)+'\x0a┇๏\x20*Favorites:*\x20'+(_0x5796a2[_0x5deee9(0x1d0)]||0x0)+_0x5deee9(0x1d3)+(_0x5796a2[_0x5deee9(0x1c1)]||0x0)+_0x5deee9(0x1ba)+(_0x5796a2[_0x5deee9(0x1d2)]||_0x5deee9(0x1b4))+'\x20\x20\x20\x20\x0a╰━━━━━━━━━━━━──┈⊷\x0a>\x20©\x20ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20Jᴀᴡᴀᴅ\x20TᴇᴄʜX';if(_0x5796a2[_0x5deee9(0x1c4)]==='video')await _0x5361f3[_0x5deee9(0x1ca)](_0xd8ba49,{'video':{'url':_0x5796a2[_0x5deee9(0x1b9)][_0x5deee9(0x1d4)]},'caption':_0x48590b},{'quoted':_0x4262dc});else{if(_0x5796a2['type']===_0x5deee9(0x1b3))for(const [_0xdd53f2,_0x2eb0c5]of(_0x5796a2['image']||[])['entries']()){await _0x5361f3[_0x5deee9(0x1ca)](_0xd8ba49,{'image':{'url':_0x2eb0c5},'caption':_0x5deee9(0x1be)+(_0xdd53f2+0x1)+'\x0a\x0a'+_0x48590b},{'quoted':_0x4262dc});}else return _0x2303a0('Sorry,\x20I\x20couldn\x27t\x20process\x20this\x20type\x20of\x20TikTok\x20content.');}}catch(_0x56bda5){console['error'](_0x5deee9(0x1b1),_0x56bda5),_0x2303a0('An\x20error\x20occurred\x20while\x20processing\x20your\x20request.\x20Please\x20try\x20again\x20later.');}});
+const fetch = require("node-fetch");
+const {
+  cmd
+} = require("../command");
+cmd({
+  'pattern': "tiktok2",
+  'alias': ["tt2", "tiktokdl2", "ttdown2", "tiktokvid2", "ttdl"],
+  'desc': "Download videos or images from TikTok.",
+  'react': '✅',
+  'category': 'tools',
+  'filename': __filename
+}, async (_0x5361f3, _0x2bb796, _0x4262dc, {
+  from: _0xd8ba49,
+  args: _0x5a77fe,
+  reply: _0x2303a0
+}) => {
+  try {
+    const _0x432f6b = _0x5a77fe[0x0];
+    if (!_0x432f6b || !_0x432f6b.startsWith("http")) {
+      return _0x2303a0("Please provide a valid TikTok link.\n\n*Usage Example:*\n\n.tt2 <TikTok video URL>");
+    }
+    const _0x4eed81 = await fetch('https://api.yanzbotz.live/api/downloader/tiktok?url=' + encodeURIComponent(_0x432f6b) + '&apiKey=yanzdev');
+    const _0x233679 = await _0x4eed81.json();
+    if (!_0x233679 || !_0x233679.result) {
+      return _0x2303a0("Sorry, I couldn't fetch the TikTok content. Please check the link and try again.");
+    }
+    const _0x5796a2 = _0x233679.result;
+    const _0x48590b = "*𝕊𝕚𝕝𝕧𝕒 𝕊𝕡𝕒𝕣𝕜 𝕄𝔻* ⊷\n┃๏ *TIKTOK DOWNLOADER*\n···๏\n⊷\n*Post Details* ⊷\n*Type:* " + (_0x5796a2.type || "N/A") + "\n*Name:* " + (_0x5796a2.name || "N/A") + "\n*Username:* " + (_0x5796a2.username || 'N/A') + "\n*Views:* " + (_0x5796a2.views || 0x0) + "\n*Likes:* " + (_0x5796a2.likes || 0x0) + "\n*Comments:* " + (_0x5796a2.comments || 0x0) + "\n*Favorites:* " + (_0x5796a2.favorite || 0x0) + "\n┇๏ *Shares:* " + (_0x5796a2.shares || 0x0) + "    \n┇๏ *Description:* " + (_0x5796a2.description || "N/A") + "    \n╰━━━━━━━━━━━━──┈⊷\n> ©𝕊𝕚𝕝𝕧𝕒 𝕊𝕡𝕒𝕣𝕜 𝕄𝔻";
+    if (_0x5796a2.type === 'video') {
+      await _0x5361f3.sendMessage(_0xd8ba49, {
+        'video': {
+          'url': _0x5796a2.video["no-watermark"]
+        },
+        'caption': _0x48590b
+      }, {
+        'quoted': _0x4262dc
+      });
+    } else {
+      if (_0x5796a2.type === "image") {
+        for (const [_0xdd53f2, _0x2eb0c5] of (_0x5796a2.image || []).entries()) {
+          await _0x5361f3.sendMessage(_0xd8ba49, {
+            'image': {
+              'url': _0x2eb0c5
+            },
+            'caption': "*💜 Image:* " + (_0xdd53f2 + 0x1) + "\n\n" + _0x48590b
+          }, {
+            'quoted': _0x4262dc
+          });
+        }
+      } else {
+        return _0x2303a0("Sorry, I couldn't process this type of TikTok content.");
+      }
+    }
+  } catch (_0x56bda5) {
+    console.error("𝕊𝕚𝕝𝕧𝕒 𝕊𝕡𝕒𝕣𝕜 𝕄𝔻 Error in TikTok command:", _0x56bda5);
+    _0x2303a0("𝕊𝕚𝕝𝕧𝕒 𝕊𝕡𝕒𝕣𝕜 𝕄𝔻 An error occurred while processing your request. Please try again later.");
+  }
+});
