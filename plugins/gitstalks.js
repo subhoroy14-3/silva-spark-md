@@ -1,1 +1,124 @@
-function _0x3a78(_0x2975ae,_0x3f390e){const _0x274848=_0x2748();return _0x3a78=function(_0x3a78ec,_0x423efe){_0x3a78ec=_0x3a78ec-0x1ce;let _0x91ac6a=_0x274848[_0x3a78ec];return _0x91ac6a;},_0x3a78(_0x2975ae,_0x3f390e);}const _0x38845c=_0x3a78;(function(_0x2f421d,_0x5443fe){const _0x3c2ab9=_0x3a78,_0x3a412e=_0x2f421d();while(!![]){try{const _0x3861d0=-parseInt(_0x3c2ab9(0x1d4))/0x1+-parseInt(_0x3c2ab9(0x1d3))/0x2+-parseInt(_0x3c2ab9(0x1e0))/0x3+parseInt(_0x3c2ab9(0x1d0))/0x4*(-parseInt(_0x3c2ab9(0x1ef))/0x5)+parseInt(_0x3c2ab9(0x1d2))/0x6*(parseInt(_0x3c2ab9(0x1e8))/0x7)+parseInt(_0x3c2ab9(0x1da))/0x8+parseInt(_0x3c2ab9(0x1f0))/0x9;if(_0x3861d0===_0x5443fe)break;else _0x3a412e['push'](_0x3a412e['shift']());}catch(_0x4ce65f){_0x3a412e['push'](_0x3a412e['shift']());}}}(_0x2748,0xd9ec4));const fetch=require(_0x38845c(0x1dd)),{getBuffer,getGroupAdmins,getRandom,h2k,isUrl,Json,sleep,fetchJson}=require(_0x38845c(0x1d7)),{cmd}=require(_0x38845c(0x1dc));cmd({'pattern':_0x38845c(0x1e1),'alias':_0x38845c(0x1f9),'desc':_0x38845c(0x1e7),'category':_0x38845c(0x1f7),'filename':__filename},async(_0x3f368b,_0x1c1435,_0x2fe294,{reply:_0x393f08,body:_0x4cbc9c,isGroup:_0x586b42})=>{const _0x53a02b=_0x38845c;try{await _0x3f368b[_0x53a02b(0x1f6)](_0x2fe294['key'][_0x53a02b(0x1ed)]||_0x2fe294[_0x53a02b(0x1fc)],{'react':{'text':'⚡','key':_0x2fe294['key']}});if(_0x586b42)return _0x3f368b[_0x53a02b(0x1f6)](_0x2fe294[_0x53a02b(0x1f1)][_0x53a02b(0x1ed)]||_0x2fe294[_0x53a02b(0x1fc)],{'text':_0x53a02b(0x1e3)},{'quoted':_0x2fe294});const _0x3b2587=_0x4cbc9c[_0x53a02b(0x1e9)]('\x20')[0x1];if(!_0x3b2587||!/^\d{10,15}$/[_0x53a02b(0x1cf)](_0x3b2587))return _0x393f08(_0x53a02b(0x1fd));await _0x3f368b[_0x53a02b(0x1f6)](_0x2fe294[_0x53a02b(0x1f1)][_0x53a02b(0x1ed)]||_0x2fe294[_0x53a02b(0x1fc)],{'react':{'text':'⏳','key':_0x2fe294[_0x53a02b(0x1f1)]}}),_0x393f08(_0x53a02b(0x1fa));const _0x13d51a=await fetch(_0x53a02b(0x1db)+encodeURIComponent(_0x3b2587)),_0x2e869c=await _0x13d51a[_0x53a02b(0x1e4)]();if(_0x2e869c['code']){const _0x25f740=_0x2e869c[_0x53a02b(0x1e2)],_0xeea95a=_0x53a02b(0x1ec)+_0x25f740+_0x53a02b(0x1ce);try{await _0x3f368b[_0x53a02b(0x1f6)](_0x2fe294['key'][_0x53a02b(0x1ed)]||_0x2fe294['from'],{'image':{'url':_0x53a02b(0x1f3)},'caption':_0xeea95a},{'quoted':_0x2fe294});}catch(_0x3ddd1f){console[_0x53a02b(0x1f2)](_0x53a02b(0x1f4),_0x3ddd1f),_0x393f08(_0x53a02b(0x1d8));}await _0x3f368b['sendMessage'](_0x2fe294[_0x53a02b(0x1f1)][_0x53a02b(0x1ed)]||_0x2fe294[_0x53a02b(0x1fc)],{'text':_0x25f740},{'quoted':_0x2fe294}),await _0x3f368b[_0x53a02b(0x1f6)](_0x2fe294['key'][_0x53a02b(0x1ed)]||_0x2fe294[_0x53a02b(0x1fc)],{'react':{'text':'⤵️','key':_0x2fe294[_0x53a02b(0x1f1)]}});}else _0x2e869c['error']?_0x393f08(_0x53a02b(0x1d9)+_0x2e869c[_0x53a02b(0x1f2)]):_0x393f08(_0x53a02b(0x1d6));}catch(_0x43d09a){console['error'](_0x53a02b(0x1de),_0x43d09a),_0x393f08(_0x53a02b(0x1ee)+_0x43d09a[_0x53a02b(0x1d1)]);}}),cmd({'pattern':_0x38845c(0x1df),'alias':['getpair2',_0x38845c(0x1ea)],'react':'🎉','desc':_0x38845c(0x1f5),'category':_0x38845c(0x1d5),'use':'.pair\x20++923477868XXX','filename':__filename},async(_0x164b72,_0x230a02,_0x1c5313,{from:_0x451058,prefix:_0x363a9d,quoted:_0x43e02b,q:_0x4de0bb,reply:_0x50e2bb})=>{const _0x2e03ef=_0x38845c;try{const _0x566978=_0xf64dd8=>new Promise(_0x1495bd=>setTimeout(_0x1495bd,_0xf64dd8));if(!_0x4de0bb)return await _0x50e2bb(_0x2e03ef(0x1e6));const _0x5aa4f0=require('node-fetch'),_0x3a87c7=await _0x5aa4f0('https://romek-x-khan-ai.onrender.com/pair?phone='+_0x4de0bb),_0x15aa92=await _0x3a87c7[_0x2e03ef(0x1e4)]();if(!_0x15aa92||!_0x15aa92[_0x2e03ef(0x1e2)])return await _0x50e2bb(_0x2e03ef(0x1fb));const _0x27dff2=_0x15aa92[_0x2e03ef(0x1e2)],_0x374f55=_0x2e03ef(0x1f8);await _0x50e2bb(_0x374f55+_0x2e03ef(0x1e5)+_0x27dff2),await _0x566978(0x7d0),await _0x50e2bb(''+_0x27dff2);}catch(_0x53bf58){console[_0x2e03ef(0x1f2)](_0x53bf58),await _0x50e2bb(_0x2e03ef(0x1eb));}});function _0x2748(){const _0x336266=['code','*❌\x20Getting\x20a\x20pairing\x20code\x20is\x20not\x20allowed\x20in\x20groups!*\x0a\x0aPlease\x20use\x20this\x20command\x20in\x20my\x20inbox\x20to\x20get\x20your\x20pairing\x20code.','json','\x0a\x0a*Your\x20pairing\x20code\x20is:*\x20','*Example\x20-*\x20.pair\x20+923477868XXX','Get\x20a\x20pairing\x20code\x20for\x20a\x20phone\x20number','508284oLGIhP','split','clonebot','An\x20error\x20occurred.\x20Please\x20try\x20again\x20later.','*⚡Pairing\x20Code\x20For\x20KHAN-MD\x20🗿*\x0a\x0a🪀\x20notification\x20has\x20been\x20sent\x20to\x20your\x20WhatsApp.\x20Please\x20check\x20your\x20phone\x20and\x20copy\x20this\x20code\x20to\x20pair\x20it\x20and\x20get\x20your\x20*KHAN-AI*\x20session\x20id.\x0a\x0a*🔢\x20Pairing\x20Code*\x20:\x20*','remoteJid','❌\x20An\x20error\x20occurred:\x20','4106955XghXtw','37805013lIrhFF','key','error','https://qu.ax/hKPyA.jpg','Error\x20sending\x20pairing\x20code\x20message\x20with\x20image:','Pairing\x20code','sendMessage','main','>\x20*KHAN-AI\x20PAIR\x20COMPLETED*','pair','Processing\x20your\x20request.\x20Please\x20wait...','Failed\x20to\x20retrieve\x20pairing\x20code.\x20Please\x20check\x20the\x20phone\x20number\x20and\x20try\x20again.','from','*❌\x20Invalid\x20phone\x20number\x20format*.\x0a\x0aPlease\x20enter\x20a\x20valid\x20number\x20with\x20country\x20code\x20(.getpair\x20923000000000).','*\x0a\x0a>\x20*_Copy\x20it\x20from\x20below\x20message\x20👇🏻_*','test','4TlKQwZ','message','144HVVXQV','3535814xTOAJP','1328206dYpJux','download','❌\x20Failed\x20to\x20retrieve\x20pairing\x20code.\x20Please\x20try\x20again\x20later.','../lib/functions','⚠️\x20Error\x20sending\x20pairing\x20code\x20message\x20with\x20image.\x20Please\x20try\x20again.','❌\x20Error:\x20','3280184lOHKkz','https://romek-x-khan-ai.onrender.com/pair?phone=','../command','node-fetch','Error\x20processing\x20pair\x20command:','pair2','4629456WddbmB','getpair'];_0x2748=function(){return _0x336266;};return _0x2748();}
+const fetch = require("node-fetch");
+const {
+  getBuffer,
+  getGroupAdmins,
+  getRandom,
+  h2k,
+  isUrl,
+  Json,
+  sleep,
+  fetchJson
+} = require("../lib/functions");
+const {
+  cmd
+} = require("../command");
+cmd({
+  'pattern': "getpair",
+  'alias': "pair",
+  'desc': "Get a pairing code for a phone number",
+  'category': "main",
+  'filename': __filename
+}, async (_0x3f368b, _0x1c1435, _0x2fe294, {
+  reply: _0x393f08,
+  body: _0x4cbc9c,
+  isGroup: _0x586b42
+}) => {
+  try {
+    await _0x3f368b.sendMessage(_0x2fe294.key.remoteJid || _0x2fe294.from, {
+      'react': {
+        'text': '⌛',
+        'key': _0x2fe294.key
+      }
+    });
+    if (_0x586b42) {
+      return _0x3f368b.sendMessage(_0x2fe294.key.remoteJid || _0x2fe294.from, {
+        'text': "*❌ Getting a pairing code is not allowed in groups!*\n\nPlease use this command in my inbox to get your pairing code."
+      }, {
+        'quoted': _0x2fe294
+      });
+    }
+    const _0x3b2587 = _0x4cbc9c.split(" ")[0x1];
+    if (!_0x3b2587 || !/^\d{10,15}$/.test(_0x3b2587)) {
+      return _0x393f08("*❌ Invalid phone number format*.\n\nPlease enter a valid number with country code (.getpair 254000000000).");
+    }
+    await _0x3f368b.sendMessage(_0x2fe294.key.remoteJid || _0x2fe294.from, {
+      'react': {
+        'text': '⏳',
+        'key': _0x2fe294.key
+      }
+    });
+    _0x393f08("Processing your request. Please wait...");
+    const _0x13d51a = await fetch("https://session-id.silvatechinc.my.id/pair?phone=" + encodeURIComponent(_0x3b2587));
+    const _0x2e869c = await _0x13d51a.json();
+    if (_0x2e869c.code) {
+      const _0x25f740 = _0x2e869c.code;
+      const _0xeea95a = "*⚡Pairing Code For silva spark 🗿*\n\n🪀 notification has been sent to your WhatsApp. Please check your phone and copy this code to pair it and get your *Ｓｉｌｖａ Ｓｐａｒｋ ＭＤ* session id.\n\n*🔢 Pairing Code* : *" + _0x25f740 + "*\n\n> *_Copy it from below message 👇🏻_*";
+      try {
+        await _0x3f368b.sendMessage(_0x2fe294.key.remoteJid || _0x2fe294.from, {
+          'image': {
+            'url': "https://i.imgur.com/PEZ5QL2.jpeg"
+          },
+          'caption': _0xeea95a
+        }, {
+          'quoted': _0x2fe294
+        });
+      } catch (_0x3ddd1f) {
+        console.error("Error sending pairing code message with image:", _0x3ddd1f);
+        _0x393f08("⚠️ Error sending pairing code message with image. Please try again.");
+      }
+      await _0x3f368b.sendMessage(_0x2fe294.key.remoteJid || _0x2fe294.from, {
+        'text': _0x25f740
+      }, {
+        'quoted': _0x2fe294
+      });
+      await _0x3f368b.sendMessage(_0x2fe294.key.remoteJid || _0x2fe294.from, {
+        'react': {
+          'text': '⤵️',
+          'key': _0x2fe294.key
+        }
+      });
+    } else if (_0x2e869c.error) {
+      _0x393f08("❌ Error: " + _0x2e869c.error);
+    } else {
+      _0x393f08("❌ Failed to retrieve pairing code. Please try again later.");
+    }
+  } catch (_0x43d09a) {
+    console.error("Error processing pair command:", _0x43d09a);
+    _0x393f08("❌ An error occurred: " + _0x43d09a.message);
+  }
+});
+cmd({
+  'pattern': "pair2",
+  'alias': ['getpair2', "clonebot"],
+  'react': '🎉',
+  'desc': "Pairing code",
+  'category': "download",
+  'use': ".pair +254700143167",
+  'filename': __filename
+}, async (_0x164b72, _0x230a02, _0x1c5313, {
+  from: _0x451058,
+  prefix: _0x363a9d,
+  quoted: _0x43e02b,
+  q: _0x4de0bb,
+  reply: _0x50e2bb
+}) => {
+  try {
+    const _0x566978 = _0xf64dd8 => new Promise(_0x1495bd => setTimeout(_0x1495bd, _0xf64dd8));
+    if (!_0x4de0bb) {
+      return await _0x50e2bb("*Example -* .pair 254700143167");
+    }
+    const _0x5aa4f0 = require('node-fetch');
+    const _0x3a87c7 = await _0x5aa4f0('https://session-id.silvatechinc.my.id/pair?phone=' + _0x4de0bb);
+    const _0x15aa92 = await _0x3a87c7.json();
+    if (!_0x15aa92 || !_0x15aa92.code) {
+      return await _0x50e2bb("Failed to retrieve pairing code. Please check the phone number and try again.");
+    }
+    const _0x27dff2 = _0x15aa92.code;
+    await _0x50e2bb("> *Ｓｉｌｖａ Ｓｐａｒｋ ＭＤ PAIR COMPLETED*\n\n*Your pairing code is:* " + _0x27dff2);
+    await _0x566978(0x7d0);
+    await _0x50e2bb('' + _0x27dff2);
+  } catch (_0x53bf58) {
+    console.error(_0x53bf58);
+    await _0x50e2bb("An error occurred. Please try again later.");
+  }
+});
