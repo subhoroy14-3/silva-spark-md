@@ -45,8 +45,8 @@ async (conn, mek, m, { from, isGroup, groupMetadata, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'JawadTechX',
+                    newsletterJid: '120363200367779016@newsletter',
+                    newsletterName: 'SILVA TECH INC',
                     serverMessageId: 143,
                 },
             },
@@ -102,7 +102,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 ${joke.punchline} 😄
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*`;
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ SILVA*`;
 
         return reply(jokeMessage);
     } catch (e) {
@@ -167,7 +167,7 @@ cmd({
     let fontResults = data.result.map(font => '*' + font.name + ":*\n" + font.result).join("\n\n");
     
     // Message formatting
-    let message = `*KHAN-AI FANCY FONTS*:\n\n${fontResults}\n\n> *BY JAWADTECHX*`;
+    let message = `*KHAN-AI FANCY FONTS*:\n\n${fontResults}\n\n> *BY SILVA SPARK*`;
 
     // Sending the message with context info
     await conn.sendMessage(
@@ -179,8 +179,8 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363354023106228@newsletter',
-            newsletterName: 'JawadTechX',
+            newsletterJid: '120363200367779016@newsletter',
+            newsletterName: 'SILVA SPARK',
             serverMessageId: 143
           }
         }
@@ -219,7 +219,7 @@ async (conn, mek, m, { from, reply }) => {
         console.log('JSON response:', json);
 
         // Format the pickup line message
-        const pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\n> *© Powered By JawadTechX*`;
+        const pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\n> *© Powered By Silva*`;
 
         // Send the pickup line to the chat
         await conn.sendMessage(from, { text: pickupLine }, { quoted: m });
