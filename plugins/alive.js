@@ -7,26 +7,26 @@ cmd({
     alias: ["status", "runtime", "uptime"],
     desc: "Check uptime and system status",
     category: "main",
-    react: "📟",
+    react: "⌚",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Generate system status message
-        const status = `╭━━〔 *KHAN-AI* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
-┃◈┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
-┃◈┃• *⚙️ HostName*: ${os.hostname()}
-┃◈┃• *👨‍💻 Owner*: Jawad TechX
-┃◈┃• *🧬 Version*: 2.0.0
-┃◈└───────────┈⊷
+        const status = `╭━━〔 *✦ Silva ✦ Spark ✦ MD ✦* 〕━━┈⊷
+┃🦄╭─────────────·๏
+┃🦄┃• *⏳Uptime*:  ${runtime(process.uptime())} 
+┃🦄┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}GB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}TB
+┃🦄┃• *⚙️ HostName*: ${os.hostname()}
+┃🦄┃• *👨‍💻 Owner*: SPARK
+┃🦄┃• *🧬 Version*: 1.0.0
+✦ Silva ✦ Spark ✦ MD ✦
 ╰──────────────┈⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX`;
+> © ✦ Silva ✦ Spark ✦ MD ✦`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/149k8x.jpg` },  // Image URL
+            image: { url: `https://i.imgur.com/PEZ5QL2.jpeg` },  
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -34,7 +34,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'JawadTechX',
+                    newsletterName: 'SILVA SPARK 💖',
                     serverMessageId: 143
                 }
             }
