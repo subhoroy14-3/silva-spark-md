@@ -8,10 +8,11 @@
     "stop": "pm2 stop silva-spark-md",
     "restart": "pm2 restart silva-spark-md"
   },
-  "dependencies": {
+   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "pino": "^7.0.5",
     "pm2": "^5.2.0",
     "util": "^0.12.4",
