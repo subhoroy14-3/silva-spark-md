@@ -28,7 +28,7 @@
 
 --- 
 <p align="center">
-<a><img src='https://i.imgur.com/PEZ5QL2.jpeg'/></a>
+<a><img src='./sylivanus/SilvaSpark.png'/></a>
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
