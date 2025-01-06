@@ -167,7 +167,7 @@ cmd({
     let fontResults = data.result.map(font => '*' + font.name + ":*\n" + font.result).join("\n\n");
     
     // Message formatting
-    let message = `*KHAN-AI FANCY FONTS*:\n\n${fontResults}\n\n> *BY SILVA SPARK*`;
+    let message = `*SILVA SPARK FANCY FONTS*:\n\n${fontResults}\n\n> *BY SILVA SPARK*`;
 
     // Sending the message with context info
     await conn.sendMessage(
