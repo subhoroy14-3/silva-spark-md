@@ -40,10 +40,15 @@ cmd({
     }
 
     // Fetch response from the AI API based on the user's query
+    console.log(`Fetching AI response for query: ${query}`); // Log the query for debugging
     let aiResponse = await fetchJson("https://api.davidcyriltech.my.id/ai/chatbot?query=" + query);
+
+    // Log the raw API response to check the structure
+    console.log('AI API Response:', aiResponse);
 
     // Check if the AI response is valid
     if (!aiResponse || !aiResponse.data) {
+      console.error('Invalid AI response structure:', aiResponse); // Log the invalid response
       return replyFunction('AI response is empty or invalid.');
     }
 
