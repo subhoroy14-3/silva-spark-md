@@ -34,9 +34,19 @@ cmd({
   reply: replyFunction
 }) => {
   try {
+    // Check if 'query' is defined and not empty
+    if (!query || query.trim().length === 0) {
+      return replyFunction('Please provide a query to chat with the AI.');
+    }
+
     // Fetch response from the AI API based on the user's query
     let aiResponse = await fetchJson("https://api.davidcyriltech.my.id/ai/chatbot?query=" + query);
-    
+
+    // Check if the AI response is valid
+    if (!aiResponse || !aiResponse.data) {
+      return replyFunction('AI response is empty or invalid.');
+    }
+
     // Prepare the AI response message
     const message = aiResponse.data;
 
@@ -60,7 +70,7 @@ cmd({
     );
   } catch (error) {
     // Log and send error if the API call fails
-    console.log(error);
-    replyFunction('Error: ' + error);
+    console.error("Error during AI API call:", error);
+    replyFunction('Error: ' + (error.message || error));
   }
 });
