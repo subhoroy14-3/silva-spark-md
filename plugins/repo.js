@@ -15,25 +15,25 @@ async (conn, mek, m, { from, quoted, reply }) => {
         // Fetch repository data from GitHub API
         const repoResponse = await axios.get('https://api.github.com/repos/SilvaTechB/silva-spark-md');
         const { stargazers_count, forks_count } = repoResponse.data;
-        const userCount = forks_count * 3; // Estimate user count based on forks
+        const userCount = forks_count * 5; // Estimate user count based on forks
 
         // Construct the message
         const message = `
 *Hello there, Silva Spark User! 👋*
 
 💻 *Silva Spark MD Repository Info*:
-
 ⭐ *Stars*: ${stargazers_count}
 🍴 *Forks*: ${forks_count}
-👥 *Estimated Users*: ${userCount}
+👥 *Users*: ${userCount}
 
-> *Simple, straightforward, and feature-loaded! Meet Silva Spark WhatsApp Bot!* 🎊
+> ✨ Silva Spark WhatsApp Bot – Simple. Smart. Feature-packed. 🚀
+Effortlessly elevate your WhatsApp experience with our cutting-edge bot technology! 🎊
 
-*Thank you for using Silva Spark 🚩*
+🔗 *Repository*: https://github.com/SilvaTechB/silva-spark-md
 
-🔗 *Repository*: [GitHub Link](https://github.com/SilvaTechB/silva-spark-md)
+*💡 Tip: Don’t forget to fork the repo and leave a star to show your support! 🌟*
 
-*Don't forget to fork and star the repo!* 🌟
+🙌 Thank you for choosing Silva Spark MD – your ultimate bot companion! 🎉
         `;
 
         // Send the repository info as a text message
