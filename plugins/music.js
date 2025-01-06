@@ -11,11 +11,7 @@ cmd({
   category: "media",
   filename: __filename
 }, async (client, message, details, context) => {
-  const { 
-    from, quoted, body, isCmd, command, args, q, 
-    isGroup, sender, senderNumber, botNumber, 
-    pushname, reply 
-  } = context;
+  const { q, from, reply } = context;
 
   if (!q) {
     return reply("Please provide a title or link (Spotify/YouTube)!");
@@ -27,11 +23,11 @@ cmd({
   let youtubeSent = false;
 
   try {
-    // Fetching from Spotify
+    // Fetch from Spotify
     const spotifyResponse = await axios.get(
       `https://spotifyapi.caliphdev.com/api/search/tracks?q=${encodeURIComponent(q)}`
     );
-    const spotifyTrack = spotifyResponse.data[0];
+    const spotifyTrack = spotifyResponse.data?.[0]; // Safely access first track
 
     if (spotifyTrack) {
       const trackStream = await axios({
@@ -40,14 +36,14 @@ cmd({
         responseType: 'stream'
       });
 
-      if (trackStream.headers["content-type"] === "audio/mpeg") {
+      if (trackStream.headers["content-type"]?.includes("audio/mpeg")) {
         await client.sendMessage(from, {
           audio: trackStream.data,
           mimetype: "audio/mpeg",
           contextInfo: {
             externalAdReply: {
               title: spotifyTrack.title,
-              body: `SILVA A UNIVERSAL DEVELOPER🥰💖: SPOTIFY`,
+              body: "💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎 🥰💖: SPOTIFY",
               mediaType: 1,
               sourceUrl: spotifyTrack.url,
               renderLargerThumbnail: true
@@ -55,28 +51,32 @@ cmd({
           }
         });
         spotifySent = true;
+      } else {
+        console.log("Spotify stream not in audio/mpeg format.");
       }
+    } else {
+      console.log("No Spotify track found.");
     }
   } catch (error) {
     console.error("Spotify Error:", error.message);
   }
 
   try {
-    // Fetching from YouTube
+    // Fetch from YouTube
     const youtubeSearchResults = await yts(q);
     const youtubeVideo = youtubeSearchResults.videos[0];
 
     if (youtubeVideo && youtubeVideo.seconds < 3600) { // Video duration < 1 hour
       const youtubeAudio = await youtube(youtubeVideo.url);
 
-      if (youtubeAudio && youtubeAudio.mp3) {
+      if (youtubeAudio?.mp3) {
         await client.sendMessage(from, {
           audio: { url: youtubeAudio.mp3 },
           mimetype: "audio/mpeg",
           contextInfo: {
             externalAdReply: {
               title: youtubeVideo.title,
-              body: "SILVA A UNIVERSAL DEVELOPER 🥰: YOUTUBE",
+              body: "💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎🥰: YOUTUBE",
               mediaType: 1,
               sourceUrl: youtubeVideo.url,
               renderLargerThumbnail: true
@@ -85,10 +85,10 @@ cmd({
         });
         youtubeSent = true;
       } else {
-        reply("Failed to fetch audio from YouTube.");
+        console.log("Failed to fetch YouTube audio.");
       }
     } else {
-      reply("No suitable YouTube results found.");
+      console.log("No suitable YouTube results found.");
     }
   } catch (error) {
     console.error("YouTube Error:", error.message);
@@ -97,10 +97,10 @@ cmd({
   if (!spotifySent && !youtubeSent) {
     reply("Failed to fetch audio from both Spotify and YouTube.");
   } else if (spotifySent && youtubeSent) {
-    reply("Silva Spark says: Both Spotify and YouTube audio sent successfully.\n\n\n world class bot created by silva tech\n\n silva md bot\n\nsilva spark md");
+    reply("Both Spotify and YouTube audio sent successfully.");
   } else if (spotifySent) {
-    reply("Spotify audio sent successfully.");
+    reply("💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎: Spotify audio sent successfully.");
   } else if (youtubeSent) {
-    reply("YouTube audio sent successfully.");
+    reply("💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎: YouTube audio sent successfully.");
   }
 });
