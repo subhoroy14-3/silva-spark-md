@@ -25,12 +25,9 @@ async (conn, mek, m, { from, quoted, reply }) => {
 ⭐ *Stars*: ${stargazers_count}
 🍴 *Forks*: ${forks_count}
 👥 *Users*: ${userCount}
-
+🔗 *Repository*: https://github.com/SilvaTechB/silva-spark-md
 > ✨ Silva Spark WhatsApp Bot – Simple. Smart. Feature-packed. 🚀
 Effortlessly elevate your WhatsApp experience with our cutting-edge bot technology! 🎊
-
-🔗 *Repository*: https://github.com/SilvaTechB/silva-spark-md
-
 *💡 Tip: Don’t forget to fork the repo and leave a star to show your support! 🌟*
 
 🙌 Thank you for choosing Silva Spark MD – your ultimate bot companion! 🎉
@@ -61,7 +58,7 @@ Effortlessly elevate your WhatsApp experience with our cutting-edge bot technolo
 
         // Send an audio response (PTT voice note)
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/repo.m4a' },
+            audio: { url: 'https://files.catbox.moe/hpwsi2.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
