@@ -1,7 +1,7 @@
 {
   "name": "silva-spark-md",
   "description": "Javascript WhatsApp bot made by Silva",
-  "logo": "`https://i.imgur.com/PEZ5QL2.jpeg",
+  "logo": "`./sylivanus/SilvaSpark.png",
   "keywords": ["silva-spark-md"],
   "success_url": "/",
 
